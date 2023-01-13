@@ -19,7 +19,7 @@ namespace ConsoleApp1
             WriteLine("----------------------------------");
 
             WriteLine("How do you feel?");
-            string feeling = Console.ReadLine();
+            string feeling = ReadLine();
             WriteLine("I am feeling " +feeling +" Thanks for asking");
             if (feeling == "good")
             {
@@ -29,6 +29,11 @@ namespace ConsoleApp1
             {
                 WriteLine("I am so sorry");
             }
+
+            WriteLine("Demo2: Getting user input");
+            Write("Enter your name: "); //no tiene salto de linea, el input se hace en la misma linea 
+            string userName = ReadLine();
+            Write(userName);
         }
     }
 }
