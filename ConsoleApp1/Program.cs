@@ -35,21 +35,26 @@ namespace ConsoleApp1
             //string userName = ReadLine();
             //Write(userName); //no new line, next command follows here
 
-            Write("Please type your name?");
-            string name = ReadLine();
-            Write("Where are you from");
-            string country = ReadLine();
+            //Write("Please type your name?");
+            //string name = ReadLine();
+            //Write("Where are you from");
+            //string country = ReadLine();
 
-            WriteLine("----------------------------------");
-            WriteLine("*          Name:"+ name +"       *");
-            WriteLine("*       Country:" + country +"   *");
-            WriteLine("----------------------------------");
+            //WriteLine("----------------------------------");
+            //WriteLine("*          Name:"+ name +"       *");
+            //WriteLine("*       Country:" + country +"   *");
+            //WriteLine("----------------------------------");
 
-            WriteLine("Demo 3: Formatted output");
-            string asterik = new string('*', 64);
-            WriteLine(asterik);
-            WriteLine("*{0, 20}: {1, -40}*", "Name", name);
-            WriteLine("*{0, 20}: {1, -40}*", "Country", country);
+            //WriteLine("Demo 3: Formatted output");
+            //string asterik = new string('*', 64);
+            //WriteLine(asterik);
+            //WriteLine("*{0, 20}: {1, -40}*", "Name", name); //0 to the first "name" and 0 characters for second place thing defined
+            //WriteLine("*{0, 20}: {1, -40}*", "Country", country);
+
+            WriteLine("Demo 4: getting numeric input");
+            Write("Enter grade 1: ");
+            int grade1 = int.Parse(ReadLine());
+            WriteLine("Grade 1 is " + grade1);
         }
     }
 }
