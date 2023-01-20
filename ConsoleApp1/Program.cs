@@ -11,6 +11,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            //CHEATSHEET https://hackr.io/blog/c-sharp-cheat-sheet 
             //WriteLine("no need to specify the systm.console "); //as static System.Console was specified
             //WriteLine("----------------------------------");
             //WriteLine("*          Name: Alejandra       *");
@@ -40,21 +41,52 @@ namespace ConsoleApp1
             //Write("Where are you from");
             //string country = ReadLine();
 
-            //WriteLine("----------------------------------");
-            //WriteLine("*          Name:"+ name +"       *");
-            //WriteLine("*       Country:" + country +"   *");
-            //WriteLine("----------------------------------");
+            ////WriteLine("----------------------------------");
+            ////WriteLine("*          Name:"+ name +"       *");
+            ////WriteLine("*       Country:" + country +"   *");
+            ////WriteLine("----------------------------------");
 
             //WriteLine("Demo 3: Formatted output");
-            //string asterik = new string('*', 64);
+            //string asterik = new string('*', 64); //64 times *
             //WriteLine(asterik);
             //WriteLine("*{0, 20}: {1, -40}*", "Name", name); //0 to the first "name" and 0 characters for second place thing defined
             //WriteLine("*{0, 20}: {1, -40}*", "Country", country);
 
-            WriteLine("Demo 4: getting numeric input");
-            Write("Enter grade 1: ");
-            int grade1 = int.Parse(ReadLine());
-            WriteLine("Grade 1 is " + grade1);
+            //WriteLine("Demo 4: getting numeric input");
+            //Write("Enter grade 1: ");
+            //int grade1 = int.Parse(ReadLine());
+            //WriteLine("Grade 1 is " + grade1);
+
+            //WriteLine("Enter number 1:");
+            //int grade1 = int.Parse(ReadLine());
+
+            //WriteLine("Enter number 2:");
+            //int grade2 = int.Parse(ReadLine());
+
+            //WriteLine("Enter number 3:");
+            //int grade3 = int.Parse(ReadLine());
+            //// Cast operator - convert one numeric data type to another
+            //double avg = (grade1 + grade2 + grade3) / 3.0; //3.0 is to convert the int into a string so output is double too, not int as the other variables
+            //WriteLine(" Average of the grades are: " + avg.ToString("F2"));
+
+            //string asterix2 = new string('x', 50);
+
+            //WriteLine(asterix2);
+
+            // Post fix increment operator
+            WriteLine("Enter you age");
+            int age1 = int.Parse(ReadLine());
+            WriteLine("Age with postfix increment operator is {0}", age1);
+            WriteLine("Age after postfix increment operator is {0}", age1++);
+
+            // Pre fix increment operator
+            WriteLine("Enter you age");
+            int age2 = int.Parse(ReadLine());
+            WriteLine("Age with postfix increment operator is {0}", age2);
+            WriteLine("Age after postfix increment operator is {0}", ++age2);
+
+
+
         }
     }
 }
