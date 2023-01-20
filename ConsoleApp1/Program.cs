@@ -73,18 +73,30 @@ namespace ConsoleApp1
 
             //WriteLine(asterix2);
 
-            // Post fix increment operator
-            WriteLine("Enter you age");
-            int age1 = int.Parse(ReadLine());
-            WriteLine("Age with postfix increment operator is {0}", age1);
-            WriteLine("Age after postfix increment operator is {0}", age1++);
+            //// Post fix increment operator
+            //WriteLine("Enter you age");
+            //int age1 = int.Parse(ReadLine());
+            //WriteLine("Age with postfix increment operator is {0}", age1);
+            //WriteLine("Age after postfix increment operator is {0}", age1++);
 
-            // Pre fix increment operator
-            WriteLine("Enter you age");
-            int age2 = int.Parse(ReadLine());
-            WriteLine("Age with postfix increment operator is {0}", age2);
-            WriteLine("Age after postfix increment operator is {0}", ++age2);
+            //// Pre fix increment operator
+            //WriteLine("Enter you age");
+            //int age2 = int.Parse(ReadLine());
+            //WriteLine("Age with postfix increment operator is {0}", age2);
+            //WriteLine("Age after postfix increment operator is {0}", ++age2);
 
+            //WriteLine("Press any key to continue");
+            //ReadKey(); //when using debugging mode, to display last line 
+
+            WriteLine("Dec3 Dem4 conjunctive concatenation");
+            string msg;
+            msg = "\tworld";
+            msg += ". \tHow are you?";
+            msg += "\t5.5";
+            WriteLine(msg);
+
+            int mun = 6;
+            mun = mun + 1;
 
 
         }
